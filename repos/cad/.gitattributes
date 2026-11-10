@@ -1,0 +1,24 @@
+# CADファイルはテキスト差分が取れないのでバイナリとして扱う
+*.SLDPRT binary
+*.sldprt binary
+*.SLDASM binary
+*.sldasm binary
+*.SLDDRW binary
+*.slddrw binary
+*.STEP   binary
+*.step   binary
+*.STL    binary
+*.stl    binary
+*.f3d    binary
+
+# ---- Git LFS を使う場合（`git lfs install` 後、下のコメントを外す）----
+# 大きいファイルを扱え、`git lfs lock` で同時編集を防げる。無料枠の容量に注意。
+# *.SLDPRT filter=lfs diff=lfs merge=lfs -text lockable
+# *.sldprt filter=lfs diff=lfs merge=lfs -text lockable
+# *.SLDASM filter=lfs diff=lfs merge=lfs -text lockable
+# *.sldasm filter=lfs diff=lfs merge=lfs -text lockable
+# *.SLDDRW filter=lfs diff=lfs merge=lfs -text lockable
+# *.STEP   filter=lfs diff=lfs merge=lfs -text
+# *.step   filter=lfs diff=lfs merge=lfs -text
+# *.STL    filter=lfs diff=lfs merge=lfs -text
+# *.stl    filter=lfs diff=lfs merge=lfs -text

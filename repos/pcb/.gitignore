@@ -1,0 +1,19 @@
+# KiCad 自動バックアップ（履歴はGitが持っているので不要）
+*-backups/
+**/production/backups/
+*.bak
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad 一時・ロック・キャッシュ・個人設定
+_autosave-*
+~*.lck
+*.lck
+fp-info-cache
+*.kicad_prl
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

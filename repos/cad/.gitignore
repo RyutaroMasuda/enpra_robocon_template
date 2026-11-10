@@ -1,0 +1,14 @@
+# SolidWorks 一時ファイル・ロックファイル
+~$*
+*.swp
+*.bak
+*.tmp
+
+# Fusion / その他CADのキャッシュ
+*.f3d~
+*.lck
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
